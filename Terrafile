@@ -1,0 +1,13 @@
+---
+
+aws-elb:
+  source: "terraform-aws-modules/elb/aws"
+  version: "2.2.0"
+
+aws-security-group:
+  source: "terraform-aws-modules/security-group/aws"
+  version: "3.1.0"
+
+aws-asg:
+  source: "terraform-aws-modules/autoscaling/aws"
+  version: "3.1.0"
